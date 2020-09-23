@@ -1,0 +1,60 @@
+header {
+  width: 100%;
+  margin-top: inherit;
+}
+
+header .logo {
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px -1px 7px gray;
+  margin-top: inherit;
+  padding-top: 18px;
+  padding-bottom: 8px;
+}
+
+.info {
+  display: inline;
+  background-color: #f2f2f2;
+}
+
+.info.__loc {
+  margin: 0;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto/Roboto-Black.ttf"), url("/fonts/Roboto/Roboto-BlackItalic.ttf"), url("/fonts/Roboto/Roboto-Bold.ttf"), url("/fonts/Roboto/Roboto-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "shrikhand";
+  src: url("/fonts/shrikhand/Shrikhand-Regular.otf");
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "shrikhand", sans-serif;
+  font-weight: 100;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+}
+
+#container {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

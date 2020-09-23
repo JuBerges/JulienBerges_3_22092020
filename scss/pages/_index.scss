@@ -1,0 +1,20 @@
+header {
+  width: 100%;
+  margin-top: inherit;
+  .logo {
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px -1px 7px gray;
+    margin-top: inherit;
+    padding-top: 18px;
+    padding-bottom: 8px;
+  }
+}
+.info {
+  display: inline;
+  background-color: #f2f2f2;
+  &.__loc {
+    margin: 0;
+    width: 100%;
+  }
+}
