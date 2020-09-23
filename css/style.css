@@ -1,4 +1,5 @@
 header {
+  display: inline-block;
   width: 100%;
   margin-top: inherit;
 }
@@ -6,25 +7,80 @@ header {
 header .logo {
   width: 100%;
   text-align: center;
-  box-shadow: 0px -1px 7px gray;
-  margin-top: inherit;
+  box-shadow: 0px 2px 6px #808080;
+  margin: 0;
   padding-top: 18px;
   padding-bottom: 8px;
 }
 
-.info {
-  display: inline;
-  background-color: #f2f2f2;
-}
-
-.info.__loc {
+.info__loc {
+  font-weight: 500;
   margin: 0;
   width: 100%;
+  background-color: #ededed;
+  display: flex;
+  align-items: center;
 }
 
-@font-face {
-  font-family: "Roboto";
-  src: url("/fonts/Roboto/Roboto-Black.ttf"), url("/fonts/Roboto/Roboto-BlackItalic.ttf"), url("/fonts/Roboto/Roboto-Bold.ttf"), url("/fonts/Roboto/Roboto-BoldItalic.ttf");
+.info__loc i {
+  margin-right: 20px;
+  margin-left: 107px;
+}
+
+.info__discover {
+  display: flex;
+  background-color: #f7f7f7;
+  font-size: 1.2em;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 300px;
+}
+
+.info__discover p {
+  margin: 0 0 30px 0;
+}
+
+.info__btn {
+  font-weight: 400;
+  background: linear-gradient(-2deg, #9356dc, #ff79da);
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 15px 20px 15px 20px;
+  box-shadow: 0px 2px 6px #808080;
+}
+
+.info__step {
+  display: flex;
+  width: 80%;
+  background: #f7f7f7;
+  align-items: center;
+  font-weight: 400;
+  border-radius: 15px;
+  box-shadow: 0px 2px 6px #808080;
+  position: relative;
+  margin: 22px auto;
+  font-size: 0.8rem;
+  padding: 9px 0;
+}
+
+.info__step .info__number {
+  position: absolute;
+  font-size: 1.1em;
+  box-shadow: none;
+  left: -12px;
+  width: auto;
+  color: #ffffff;
+  border-radius: 50px;
+  background-color: #9356dc;
+  padding: 0 6px;
+}
+
+.info__step i {
+  margin-right: 20px;
+  margin-left: 30px;
+  font-size: 1.4em;
+  color: #808080;
 }
 
 @font-face {
@@ -34,11 +90,16 @@ header .logo {
 
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 h1 {
   font-family: "shrikhand", sans-serif;
   font-weight: 100;
+}
+
+h2 {
+  font-size: 1.4em;
 }
 
 body {

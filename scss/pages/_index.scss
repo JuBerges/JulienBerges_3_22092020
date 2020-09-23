@@ -1,20 +1,77 @@
 header {
+  display: inline-block;
   width: 100%;
   margin-top: inherit;
   .logo {
     width: 100%;
     text-align: center;
-    box-shadow: 0px -1px 7px gray;
-    margin-top: inherit;
+    box-shadow: $shadows;
+    margin: 0;
     padding-top: 18px;
     padding-bottom: 8px;
   }
 }
 .info {
-  display: inline;
-  background-color: #f2f2f2;
-  &.__loc {
+  &__loc {
+    font-weight: 500;
     margin: 0;
     width: 100%;
+    background-color: $dbg;
+    display: flex;
+    align-items: center;
+    i {
+      margin-right: 20px;
+      margin-left: 107px;
+    }
+  }
+  &__discover {
+    display: flex;
+    background-color: $lbg;
+    font-size: 1.2em;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    p {
+      margin: 0 0 30px 0;
+    }
+  }
+  &__btn {
+    font-weight: 400;
+    background: linear-gradient(-2deg, $pri-color, $sec-color);
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 15px 20px 15px 20px;
+    box-shadow: $shadows;
+  }
+  &__step {
+    display: flex;
+    width: 80%;
+    background: $lbg;
+    align-items: center;
+    font-weight: 400;
+    border-radius: 15px;
+    box-shadow: $shadows;
+    position: relative;
+    margin: 22px auto;
+    font-size: 0.8rem;
+    padding: 9px 0;
+    .info__number {
+      position: absolute;
+      font-size: 1.1em;
+      box-shadow: none;
+      left: -12px;
+      width: auto;
+      color: #ffffff;
+      border-radius: (50px);
+      background-color: $pri-color;
+      padding: 0 6px;
+    }
+    i {
+      margin-right: 20px;
+      margin-left: 30px;
+      font-size: 1.4em;
+      color: #808080;
+    }
   }
 }
