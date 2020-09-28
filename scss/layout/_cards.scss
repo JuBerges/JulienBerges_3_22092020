@@ -1,0 +1,25 @@
+.resto {
+  display: flex;
+  flex-direction: column;
+  background-color: $lbg;
+  margin: 70px 0;
+  h4 {
+    font-size: 1.5em;
+    padding: 45px 0px 5px 20px;
+    margin: 0;
+  }
+  &__card {
+    width: 90%;
+    border-radius: $card-rad;
+    @include box-shadows;
+    margin: 10px auto;
+    .resto__img {
+      width: 100%;
+      height: 170px;
+      border-radius: 15px 15px 0 0;
+      box-shadow: none;
+      object-fit: cover;
+      margin: 0;
+    }
+  }
+}

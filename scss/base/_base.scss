@@ -10,4 +10,8 @@ header {
 }
 footer {
   width: 100%;
+  list-style: none;
+  ul {
+    list-style-type: none;
+  }
 }

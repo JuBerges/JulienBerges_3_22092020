@@ -5,7 +5,7 @@ header {
   .logo {
     width: 100%;
     text-align: center;
-    box-shadow: $shadows;
+    @include box-shadows;
     margin: 0;
     padding-top: 18px;
     padding-bottom: 8px;
@@ -42,36 +42,47 @@ header {
     color: #ffffff;
     border-radius: 50px;
     padding: 15px 20px 15px 20px;
-    box-shadow: $shadows;
+    @include box-shadows;
+  }
+  &__rules {
+    h3 {
+      font-size: 1.4em;
+      padding: 20px 0px 0px 20px;
+    }
   }
   &__step {
     display: flex;
-    width: 80%;
+    width: 85%;
     background: $lbg;
     align-items: center;
     font-weight: 400;
-    border-radius: 15px;
-    box-shadow: $shadows;
+    border-radius: 25px;
+    @include box-shadows;
     position: relative;
     margin: 22px auto;
     font-size: 0.8rem;
     padding: 9px 0;
     .info__number {
       position: absolute;
-      font-size: 1.1em;
+      font-size: 1.2em;
       box-shadow: none;
       left: -12px;
       width: auto;
       color: #ffffff;
-      border-radius: (50px);
+      border-radius: (15px);
       background-color: $pri-color;
-      padding: 0 6px;
+      padding: 2px 7px;
     }
     i {
       margin-right: 20px;
       margin-left: 30px;
       font-size: 1.4em;
       color: #808080;
+    }
+    p {
+      padding: 0px;
+      font-size: 1.3em;
+      font-weight: 401;
     }
   }
 }
