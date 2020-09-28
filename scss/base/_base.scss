@@ -2,11 +2,21 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-header {
-  width: 100%;
-}
 #container {
   width: 100%;
+}
+header {
+  display: inline-block;
+  width: 100%;
+  margin-top: inherit;
+  .logo {
+    width: 100%;
+    text-align: center;
+    @include box-shadows;
+    margin: 0;
+    padding-top: 18px;
+    padding-bottom: 8px;
+  }
 }
 footer {
   width: 100%;
