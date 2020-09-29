@@ -23,14 +23,6 @@
       margin: 0 0 30px 0;
     }
   }
-  &__btn {
-    font-weight: 400;
-    background: linear-gradient(-2deg, $pri-color, $sec-color);
-    color: #ffffff;
-    border-radius: 50px;
-    padding: 15px 20px 15px 20px;
-    @include box-shadows;
-  }
   &__rules {
     h3 {
       font-size: 1.4em;
@@ -59,7 +51,7 @@
     p {
       padding: 0px;
       font-size: 1.3em;
-      font-weight: 401;
+      font-weight: 500;
     }
     //modifie la couleur de l'étape 3
     &--mods {
