@@ -141,6 +141,14 @@ header {
   display: inline-block;
   width: 100%;
   margin-top: inherit;
+  position: relative;
+}
+
+header i {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-size: 1.2em;
 }
 
 header .logo {
