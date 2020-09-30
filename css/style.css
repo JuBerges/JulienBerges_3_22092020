@@ -124,6 +124,10 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  font-size: 1.4em;
+}
+
 body {
   width: 100%;
   margin: 0 auto;
@@ -146,6 +150,10 @@ header .logo {
   margin: 0;
   padding-top: 18px;
   padding-bottom: 8px;
+}
+
+a {
+  color: #000000;
 }
 
 footer {
