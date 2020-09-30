@@ -2,12 +2,52 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-header {
-  width: 100%;
-}
 #container {
   width: 100%;
 }
-footer {
+header {
+  display: inline-block;
   width: 100%;
+  margin-top: inherit;
+  .logo {
+    width: 100%;
+    text-align: center;
+    @include box-shadows;
+    margin: 0;
+    padding-top: 18px;
+    padding-bottom: 8px;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: lighten(#000000, 20);
+  color: #fff;
+  width: 100%;
+  align-items: flex-start;
+  nav {
+    margin: 25px 25px 30px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    li {
+      padding: 2px;
+    }
+    .link-mod {
+      font-weight: 400;
+    }
+    i {
+      font-size: 0.9em;
+      margin-right: 10px;
+    }
+    p {
+      font-weight: 500;
+      margin: 0;
+    }
+    a {
+      color: #fff;
+    }
+  }
 }
