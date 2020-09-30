@@ -2,18 +2,17 @@
   display: flex;
   flex-direction: column;
   background-color: $lbg;
-  margin: 70px 0;
-  h4 {
-    font-size: 1.5em;
-    padding: 45px 0px 5px 20px;
-    margin: 0;
-  }
+  margin: 70px 0 0 0;
   &__wrapper {
     //englobe tout le contenu de la carte
     width: 90%;
     border-radius: $card-rad;
     @include box-shadows;
     margin: 10px auto;
+    &--last {
+      //marge du bas plus grande pour la derniére carte
+      margin-bottom: 70px;
+    }
   }
   &__img {
     //image de la carte
