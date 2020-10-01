@@ -1,0 +1,26 @@
+.h-menu {
+  box-shadow: none;
+}
+.menu-img-1 {
+  background-image: url(/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+  @include bg-placement;
+}
+.art-wrapper {
+  width: 100%;
+  background: $lbg;
+  border-radius: 50px 50px 0 0;
+  margin-top: -75px;
+  .menu-name {
+    display: flex;
+    span {
+      padding: 25px 0 0 0;
+      font-size: 1.7em;
+    }
+    h2 {
+      @include ohmy;
+      font-size: 1.8em;
+      padding: 40px 10px 0px 20px;
+      margin: 0;
+    }
+  }
+}

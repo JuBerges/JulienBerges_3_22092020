@@ -27,12 +27,13 @@
     //englobe le texte et l'icône de la carte
     display: flex;
     justify-content: space-between;
-    & div {
+    div {
       margin: 10px 0px 15px 15px;
     }
-    & span {
+    span {
       margin: 5px 10px 0px 0px;
       font-size: 1.7em;
+      color: $pri-color;
     }
   }
   &__name {

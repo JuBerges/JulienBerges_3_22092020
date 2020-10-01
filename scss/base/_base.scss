@@ -10,6 +10,7 @@ header {
   width: 100%;
   margin-top: inherit;
   position: relative;
+  @include box-shadows;
   i {
     position: absolute;
     top: 25px;
@@ -19,7 +20,6 @@ header {
   .logo {
     width: 100%;
     text-align: center;
-    @include box-shadows;
     margin: 0;
     padding-top: 18px;
     padding-bottom: 8px;
@@ -47,8 +47,10 @@ footer {
       font-weight: 400;
     }
     i {
+      height: 20px;
+      width: 20px;
       font-size: 0.9em;
-      margin-right: 10px;
+      margin-right: 5px;
     }
     p {
       font-weight: 500;

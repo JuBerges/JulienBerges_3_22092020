@@ -92,6 +92,11 @@ body {
   font-weight: 300;
 }
 
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
 h1 {
   font-family: "shrikhand", sans-serif;
   font-weight: 100;
@@ -112,17 +117,12 @@ h4 {
   margin: 0;
 }
 
-h5 {
+h6 {
   padding: 0;
   font-size: 1.1em;
   font-family: "shrikhand", sans-serif;
   font-weight: 100;
   margin: 0 0 15px;
-}
-
-a {
-  text-decoration: none;
-  color: #000000;
 }
 
 h2 {
@@ -134,10 +134,6 @@ body {
   margin: 0 auto;
 }
 
-body a {
-  color: #000000;
-}
-
 #container {
   width: 100%;
 }
@@ -147,6 +143,7 @@ header {
   width: 100%;
   margin-top: inherit;
   position: relative;
+  box-shadow: 0px 6px 8px #d3d3d3;
 }
 
 header i {
@@ -159,7 +156,6 @@ header i {
 header .logo {
   width: 100%;
   text-align: center;
-  box-shadow: 0px 6px 8px #d3d3d3;
   margin: 0;
   padding-top: 18px;
   padding-bottom: 8px;
@@ -193,8 +189,10 @@ footer ul .link-mod {
 }
 
 footer ul i {
+  height: 20px;
+  width: 20px;
   font-size: 0.9em;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 footer ul p {
@@ -245,6 +243,7 @@ footer ul a {
 .card__cap span {
   margin: 5px 10px 0px 0px;
   font-size: 1.7em;
+  color: #9356dc;
 }
 
 .card__name {
@@ -254,5 +253,42 @@ footer ul a {
 
 .card__name--bold {
   font-weight: 500;
+}
+
+.h-menu {
+  box-shadow: none;
+}
+
+.menu-img-1 {
+  background-image: url(/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+  background-clip: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 260px;
+}
+
+.art-wrapper {
+  width: 100%;
+  background: #f7f7f7;
+  border-radius: 50px 50px 0 0;
+  margin-top: -75px;
+}
+
+.art-wrapper .menu-name {
+  display: flex;
+}
+
+.art-wrapper .menu-name span {
+  padding: 25px 0 0 0;
+  font-size: 1.7em;
+}
+
+.art-wrapper .menu-name h2 {
+  font-family: "shrikhand", sans-serif;
+  font-weight: 100;
+  font-size: 1.8em;
+  padding: 40px 10px 0px 20px;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
