@@ -16,8 +16,24 @@
   @include like;
   h2 {
     @include ohmy;
-    font-size: 1.9em;
+    font-size: 1.5em;
     padding: 25px 10px 0px 20px;
     margin: 0;
+  }
+  .stages {
+    font-size: 2.6vh;
+    font-weight: 300;
+    padding: 0 0 0 20px;
+    margin: 10px;
+    position: relative;
+    &::after {
+      content: "";
+      width: 35px;
+      height: 3px;
+      background-color: $ter-color;
+      position: absolute;
+      left: 20px;
+      top: 22px;
+    }
   }
 }

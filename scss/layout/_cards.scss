@@ -6,6 +6,7 @@
   @include like;
   &__wrapper {
     //englobe tout le contenu de la carte
+    position: relative;
     width: 90%;
     border-radius: $card-rad;
     @include box-shadows;
@@ -13,6 +14,23 @@
     &--last {
       //marge du bas plus grande pour la derniére carte
       margin-bottom: 70px;
+    }
+    &--new {
+      &::after {
+        content: "Nouveau";
+        color: darken($ter-color, 40);
+        width: 73px;
+        height: 20px;
+        background-color: #99e2d0;
+        position: absolute;
+        left: 208px;
+        top: 22px;
+        border-radius: 2px 2px 2px 2px;
+        padding: 7px 0 2px 0px;
+        font-size: 0.9em;
+        font-weight: bold;
+        text-align: center;
+      }
     }
   }
   &__img {
