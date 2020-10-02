@@ -3,6 +3,7 @@
   flex-direction: column;
   background-color: $lbg;
   margin: 70px 0 0 0;
+  @include like;
   &__wrapper {
     //englobe tout le contenu de la carte
     width: 90%;

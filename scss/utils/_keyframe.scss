@@ -1,0 +1,17 @@
+@keyframes heartfill {
+  0% {
+    transform: scale(0);
+  }
+  17% {
+    transform: scale(0.18);
+  }
+  24% {
+    transform: scale(0.4);
+  }
+  46% {
+    transform: scale(0.81);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -211,6 +211,24 @@ footer ul a {
   margin: 70px 0 0 0;
 }
 
+.card span .first {
+  color: #808080;
+}
+
+.card span .first:hover {
+  cursor: pointer;
+}
+
+.card span .first:active + .last {
+  transform: scale(1);
+  animation: heartfill 1000ms 200ms backwards;
+}
+
+.card span .last {
+  color: #9356dc;
+  transform: scale(0);
+}
+
 .card__wrapper {
   width: 90%;
   border-radius: 15px;
@@ -274,15 +292,51 @@ footer ul a {
   width: 100%;
   background: #f7f7f7;
   border-radius: 50px 50px 0 0;
-  margin-top: -40px;
+  margin-top: -45px;
   position: relative;
+}
+
+.art-wrapper span .first {
+  color: #808080;
+}
+
+.art-wrapper span .first:hover {
+  cursor: pointer;
+}
+
+.art-wrapper span .first:active + .last {
+  transform: scale(1);
+  animation: heartfill 1000ms 200ms backwards;
+}
+
+.art-wrapper span .last {
+  color: #9356dc;
+  transform: scale(0);
 }
 
 .art-wrapper h2 {
   font-family: "shrikhand", sans-serif;
   font-weight: 100;
   font-size: 1.9em;
-  padding: 40px 10px 0px 20px;
+  padding: 25px 10px 0px 20px;
   margin: 0;
+}
+
+@keyframes heartfill {
+  0% {
+    transform: scale(0);
+  }
+  17% {
+    transform: scale(0.18);
+  }
+  24% {
+    transform: scale(0.4);
+  }
+  46% {
+    transform: scale(0.81);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 /*# sourceMappingURL=style.css.map */
