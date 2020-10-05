@@ -310,6 +310,33 @@ footer ul a {
   height: 260px;
 }
 
+.menu-img-2 {
+  background-clip: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 260px;
+  background-image: url(../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+}
+
+.menu-img-3 {
+  background-image: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+  background-clip: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 260px;
+}
+
+.menu-img-4 {
+  background-image: url(../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+  background-clip: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 260px;
+}
+
 .art-wrapper {
   display: flex;
   flex-direction: column;
@@ -385,7 +412,6 @@ footer ul a {
   text-overflow: ellipsis;
   margin: 0;
   padding: 10px 0 0 10px;
-  white-space: nowrap;
 }
 
 .art-wrapper .plates__spec {
@@ -398,7 +424,7 @@ footer ul a {
 .art-wrapper .plates__price {
   font-weight: 500;
   margin: 0;
-  padding: 35px 20px 0 15px;
+  padding: 32px 20px 0 27px;
 }
 
 @keyframes heartfill {
