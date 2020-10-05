@@ -400,19 +400,19 @@ footer ul a {
 }
 
 .art-wrapper .one {
-  animation: menuitem 2000ms 500ms ease-in forwards;
+  animation: menuitem 1s 500ms ease-in forwards;
 }
 
 .art-wrapper .two {
-  animation: menuitem 2000ms 600ms ease-in forwards;
+  animation: menuitem 1s 600ms ease-in forwards;
 }
 
 .art-wrapper .three {
-  animation: menuitem 2000ms 700ms ease-in forwards;
+  animation: menuitem 1s 700ms ease-in forwards;
 }
 
 .art-wrapper .four {
-  animation: menuitem 2000ms 800ms ease-in forwards;
+  animation: menuitem 1s 800ms ease-in forwards;
 }
 
 .art-wrapper .plates {
@@ -470,11 +470,14 @@ footer ul a {
 }
 
 @keyframes menuitem {
-  from {
+  0% {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(10px);
   }
-  to {
+  25% {
+    opacity: 1;
+  }
+  100% {
     opacity: 1;
     transform: translateY(0px);
   }
