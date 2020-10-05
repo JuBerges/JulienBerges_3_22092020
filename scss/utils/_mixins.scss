@@ -30,6 +30,16 @@
 }
 @mixin text-no-wrap {
   text-overflow: ellipsis;
-
   margin: 0;
+}
+@mixin hover-effects {
+  &:hover {
+    background: linear-gradient(
+      -2deg,
+      lighten($pri-color, 5),
+      lighten($sec-color, 5)
+    );
+    cursor: pointer;
+    box-shadow: 5px 6px 8px #808080;
+  }
 }

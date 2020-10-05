@@ -49,7 +49,20 @@
       top: 25px;
     }
   }
+  .one {
+    animation: menuitem 2000ms 500ms ease-in forwards;
+  }
+  .two {
+    animation: menuitem 2000ms 600ms ease-in forwards;
+  }
+  .three {
+    animation: menuitem 2000ms 700ms ease-in forwards;
+  }
+  .four {
+    animation: menuitem 2000ms 800ms ease-in forwards;
+  }
   .plates {
+    opacity: 0;
     @include box-shadows;
     border-radius: 15px;
     width: 90%;
@@ -65,7 +78,6 @@
       font-size: 0.9em;
       @include text-no-wrap;
       padding: 10px 0 0 10px;
-      //white-space: nowrap;
     }
     &__spec {
       font-size: 0.8em;
