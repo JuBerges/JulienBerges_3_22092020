@@ -78,10 +78,15 @@
   background: linear-gradient(-2deg, #9356dc, #ff79da);
   color: #ffffff;
   border-radius: 50px;
-  padding: 15px 45px 15px 45px;
+  padding: 15px 20px 15px 20px;
   box-shadow: 0px 6px 8px #d3d3d3;
   align-self: center;
+}
+
+.info__btn--mod {
   font-weight: 500;
+  padding: 15px 45px 15px 45px;
+  margin: 25px 0 60px 0;
 }
 
 @font-face {
@@ -346,7 +351,7 @@ footer ul a {
   font-size: 1em;
   font-weight: 300;
   padding: 0 0 0 10px;
-  margin: 10px;
+  margin: 20px 0px 0px 10px;
   position: relative;
 }
 
@@ -357,7 +362,7 @@ footer ul a {
   background-color: #99e2d0;
   position: absolute;
   left: 10px;
-  top: 22px;
+  top: 25px;
 }
 
 .art-wrapper .plates {
