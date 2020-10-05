@@ -28,3 +28,8 @@
     transform: scale(0);
   }
 }
+@mixin text-no-wrap {
+  text-overflow: ellipsis;
+
+  margin: 0;
+}

@@ -6,9 +6,9 @@
     background-color: $dbg;
     display: flex;
     align-items: center;
+    justify-content: center;
     i {
       margin-right: 20px;
-      margin-left: 107px;
     }
   }
   &__discover {
@@ -23,7 +23,7 @@
       margin: 0 0 30px 0;
     }
   }
-  //fonctionnement en 3 étapes
+  //fonctionnement du sitre en 3 étapes
   &__step {
     display: flex;
     width: 85%;
