@@ -1,5 +1,9 @@
 .h-menu {
   box-shadow: none;
+  position: fixed;
+  background-color: #fff;
+  z-index: 9000;
+  //retirer position, background et z-index si le header ne convient pas
 }
 .menu-img-1 {
   background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
