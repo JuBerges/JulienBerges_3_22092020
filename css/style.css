@@ -465,6 +465,10 @@ footer ul a {
   cursor: pointer;
 }
 
+.art-wrapper .plates:hover > .select i {
+  transform: rotate(360deg);
+}
+
 .art-wrapper .plates:hover > .select {
   transform: translateX(0px);
 }
@@ -482,6 +486,11 @@ footer ul a {
   line-height: 61px;
   vertical-align: middle;
   font-size: 1.2em;
+}
+
+.art-wrapper .plates__select i {
+  transition: all 500ms;
+  transform: rotate(0deg);
 }
 
 .art-wrapper .plates__ns-wrapper {
