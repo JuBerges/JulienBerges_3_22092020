@@ -66,6 +66,7 @@
     animation: menuitem 1s 800ms ease-in forwards;
   }
   .plates {
+    overflow: hidden;
     opacity: 0;
     @include box-shadows;
     border-radius: 15px;
@@ -74,6 +75,12 @@
     justify-content: space-between;
     margin: 20px auto 20px auto;
     background: #fff;
+    &:hover {
+      cursor: pointer;
+      & > .select {
+        transform: translateX(0px);
+      }
+    }
     &__select {
       // a revoir apres le loading spinner
       background-color: $ter-color;
@@ -81,7 +88,13 @@
       border-radius: 0 15px 15px 0;
       margin: 0;
       width: 60px;
-      display: none;
+      transform: translateX(60px);
+      transition: all 500ms;
+      transform-origin: right;
+      text-align: center;
+      line-height: 61px;
+      vertical-align: middle;
+      font-size: 1.2em;
     }
     &__ns-wrapper {
       padding: 0;
