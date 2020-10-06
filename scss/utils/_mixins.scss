@@ -30,6 +30,8 @@
 }
 @mixin text-no-wrap {
   text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
   margin: 0;
 }
 @mixin hover-effects {

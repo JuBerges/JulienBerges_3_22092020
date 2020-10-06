@@ -74,6 +74,15 @@
     justify-content: space-between;
     margin: 20px auto 20px auto;
     background: #fff;
+    &__select {
+      // a revoir apres le loading spinner
+      background-color: $ter-color;
+      color: #fff;
+      border-radius: 0 15px 15px 0;
+      margin: 0;
+      width: 60px;
+      display: none;
+    }
     &__ns-wrapper {
       padding: 0;
       margin: 0;
