@@ -77,6 +77,9 @@
     background: #fff;
     &:hover {
       cursor: pointer;
+      & > .plates__ns-wrapper {
+        width: 150px;
+      }
       & > .select i {
         transform: rotate(360deg);
       }
@@ -106,6 +109,7 @@
     &__ns-wrapper {
       padding: 0;
       margin: 0;
+      transition: $transition;
     }
     &__name {
       font-weight: 500;
