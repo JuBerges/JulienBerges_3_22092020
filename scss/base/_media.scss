@@ -18,17 +18,22 @@
       }
     }
   }
+
   .card {
     flex-direction: row;
     flex-wrap: wrap;
-    padding-bottom: 50px;
     margin-top: auto;
     h4 {
       width: 90%;
     }
-    &__wrapper {
-      width: 45%;
-      margin: 20px auto 20px auto;
+    .clicker {
+      width: 50%;
+      margin: 0;
+      padding: 0;
+      &__wrapper {
+        margin: 0px;
+        padding: 0;
+      }
     }
   }
   .art-wrapper {

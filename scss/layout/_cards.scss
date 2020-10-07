@@ -58,11 +58,12 @@
   }
   &__name {
     //nom du restaurant et localisation
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: 0px 0px 0px 0px;
     &--bold {
       //version bold pour nom du restaurant
       font-weight: 500;
+      font-size: 1.2em;
     }
   }
 }
