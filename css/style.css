@@ -278,6 +278,7 @@ footer ul a {
   position: relative;
   width: 90%;
   border-radius: 15px;
+  background-color: #fff;
   box-shadow: 0px 6px 8px #d3d3d3;
   margin: 10px auto;
 }
@@ -557,7 +558,7 @@ footer ul a {
 @keyframes menuitem {
   0% {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
   25% {
     opacity: 1;
@@ -583,6 +584,62 @@ footer ul a {
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .info__loc {
+    width: 100%;
+  }
+  .info__discover {
+    width: 50%;
+    padding: 32px 0px;
+  }
+  .info__rules {
+    width: 50%;
+    background: #f7f7f7;
+  }
+  .info__rules h3 {
+    margin: auto;
+  }
+  .card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    margin-top: auto;
+  }
+  .card h4 {
+    width: 90%;
+  }
+  .card__wrapper {
+    width: 45%;
+    margin: 20px auto 20px auto;
+  }
+  .art-wrapper h2 {
+    padding-left: 130px;
+  }
+  .art-wrapper .stages {
+    padding-left: 125px;
+  }
+  .art-wrapper .stages::after {
+    left: 125px;
+  }
+  .art-wrapper .plates {
+    width: 75%;
+  }
+  .art-wrapper .plates:hover > .plates__ns-wrapper {
+    width: auto;
+  }
+  .art-wrapper .plates__name {
+    font-size: 1em;
+  }
+  .art-wrapper .plates__spec {
+    font-size: 0.8em;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -9,6 +9,7 @@
     position: relative;
     width: 90%;
     border-radius: $card-rad;
+    background-color: #fff;
     @include box-shadows;
     margin: 10px auto;
     &--last {
