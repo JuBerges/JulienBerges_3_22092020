@@ -1,4 +1,6 @@
-<!--Reste le systeme de bouton plus clair au survol-->
+<!--Première version du site ohmyfood
+  @author: Berges Julien.
+  @version 1.0-->
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -15,10 +17,15 @@
     <title>OhMyFood</title>
   </head>
   <body>
+    <!--Div du loading spinner-->
     <div class="spinner"></div>
+
+    <!--Header principal du site-->
     <header>
       <h1 class="logo">ohmyfood</h1>
     </header>
+
+    <!--Partie info sur le site et localisation des restaurants-->
     <div id="container">
       <section class="info">
         <div class="info__loc">
@@ -35,6 +42,8 @@
           </p>
           <a href="#food"><p class="info__btn">Explorer nos restaurants</p></a>
         </div>
+
+        <!--Comment commander-->
         <div class="info__rules">
           <h3>Fonctionnement</h3>
           <div class="info__step">
@@ -53,10 +62,9 @@
             <p>Dégustez au restaurant</p>
           </div>
         </div>
-
-        <!--Début partie menu-->
       </section>
 
+      <!--Section pour le choix des restaurants-->
       <section class="card">
         <h4 id="food">Restaurants</h4>
         <a class="clicker" href="./menu_1.html"
@@ -135,6 +143,8 @@
         ></a>
       </section>
     </div>
+
+    <!--Partie footer avec lien de contact mail-->
     <footer>
       <nav>
         <h6>ohmyfood</h6>

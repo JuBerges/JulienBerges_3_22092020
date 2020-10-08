@@ -1,13 +1,13 @@
 body {
-  width: 100%;
+  width: $g-width;
   margin: 0 auto;
 }
 #container {
-  width: 100%;
+  width: $g-width;
 }
 header {
   display: inline-block;
-  width: 100%;
+  width: $g-width;
   margin-top: inherit;
   position: relative;
   @include box-shadows;
@@ -18,7 +18,7 @@ header {
     font-size: 1.2em;
   }
   .logo {
-    width: 100%;
+    width: $g-width;
     text-align: center;
     margin: 0;
     padding-top: 18px;
@@ -31,7 +31,7 @@ footer {
   flex-direction: column;
   background-color: lighten(#000000, 20);
   color: #fff;
-  width: 100%;
+  width: $g-width;
   align-items: flex-start;
   nav {
     margin: 25px 25px 30px;

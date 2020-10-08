@@ -1,3 +1,4 @@
+//pour le systeme de like
 @keyframes heartfill {
   0% {
     transform: scale(0);
@@ -15,6 +16,7 @@
     transform: scale(1);
   }
 }
+//pour l'anim d'arrivée des plats
 @keyframes menuitem {
   0% {
     opacity: 0;
@@ -29,6 +31,7 @@
     transform: translateY(0px);
   }
 }
+//loading spinner
 @keyframes loader {
   from {
     transform: rotate(0deg);
@@ -37,6 +40,7 @@
     transform: rotate(360deg);
   }
 }
+//pour l'apparition du spinner
 @keyframes starter {
   0% {
     transform: scale(1);

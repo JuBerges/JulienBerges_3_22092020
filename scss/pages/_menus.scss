@@ -3,8 +3,9 @@
   position: fixed;
   background-color: #fff;
   z-index: 9000;
-  //retirer position, background et z-index si le header ne convient pas
+  //retirer position, background et z-index si le header fixe ne convient pas
 }
+//images de fonds des pages de restaurants
 .menu-img-1 {
   background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
   @include bg-placement;
@@ -22,6 +23,7 @@
   @include bg-placement;
 }
 .art-wrapper {
+  //Englobe toute la partie entrées, plats , desserts
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -31,6 +33,7 @@
   position: relative;
   @include like;
   h2 {
+    //nom du restaurant
     @include ohmy;
     font-size: 1.5em;
     padding: 25px 10px 0px 20px;
@@ -38,6 +41,7 @@
     white-space: nowrap;
   }
   .stages {
+    //Englobe les articles entréé,plat et dessert un par un
     font-size: 1em;
     font-weight: 300;
     padding: 0 0 0 10px;
@@ -53,19 +57,21 @@
       top: 25px;
     }
   }
+  //animations des différents plats
   .one {
-    animation: menuitem 1s 500ms ease-in forwards;
+    animation: menuitem $anim-time 500ms ease-in forwards;
   }
   .two {
-    animation: menuitem 1s 600ms ease-in forwards;
+    animation: menuitem $anim-time 600ms ease-in forwards;
   }
   .three {
-    animation: menuitem 1s 700ms ease-in forwards;
+    animation: menuitem $anim-time 700ms ease-in forwards;
   }
   .four {
-    animation: menuitem 1s 800ms ease-in forwards;
+    animation: menuitem $anim-time 800ms ease-in forwards;
   }
   .plates {
+    //pour les differents plats
     overflow: hidden;
     opacity: 0;
     @include box-shadows;
@@ -88,7 +94,7 @@
       }
     }
     &__select {
-      // a revoir apres le loading spinner
+      //coulisse pour selection des plats
       background-color: $ter-color;
       color: #fff;
       border-radius: 0 15px 15px 0;
@@ -102,11 +108,13 @@
       vertical-align: middle;
       font-size: 1.2em;
       i {
+        //incône rotative de selection
         transition: $transition;
         transform: rotate(0deg);
       }
     }
     &__ns-wrapper {
+      //Englobe le texte du nom et l'info sur les plats
       padding: 0;
       margin: 0;
       transition: $transition;
@@ -123,6 +131,7 @@
       padding: 5px 0px 10px 10px;
     }
     &__price {
+      //style du prix
       position: absolute;
       background-color: #fff;
       width: 30px;

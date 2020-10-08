@@ -2,7 +2,7 @@
   font-family: "shrikhand";
   src: url("../fonts/shrikhand/Shrikhand-Regular.otf");
 }
-
+// Polices du site et font-size de la pages d'acceuil
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -31,7 +31,4 @@ h6 {
   font-size: 1.1em;
   @include ohmy;
   margin: 0 0 15px;
-}
-h2 {
-  font-size: 1.4em;
 }

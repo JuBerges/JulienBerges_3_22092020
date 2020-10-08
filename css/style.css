@@ -170,10 +170,6 @@ h6 {
   margin: 0 0 15px;
 }
 
-h2 {
-  font-size: 1.4em;
-}
-
 body {
   width: 100%;
   margin: 0 auto;
@@ -436,19 +432,19 @@ footer ul a {
 }
 
 .art-wrapper .one {
-  animation: menuitem 1s 500ms ease-in forwards;
+  animation: menuitem 1000ms 500ms ease-in forwards;
 }
 
 .art-wrapper .two {
-  animation: menuitem 1s 600ms ease-in forwards;
+  animation: menuitem 1000ms 600ms ease-in forwards;
 }
 
 .art-wrapper .three {
-  animation: menuitem 1s 700ms ease-in forwards;
+  animation: menuitem 1000ms 700ms ease-in forwards;
 }
 
 .art-wrapper .four {
-  animation: menuitem 1s 800ms ease-in forwards;
+  animation: menuitem 1000ms 800ms ease-in forwards;
 }
 
 .art-wrapper .plates {

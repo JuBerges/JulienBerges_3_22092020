@@ -4,4 +4,6 @@ $ter-color: #99e2d0; //couleur tertiaire
 $lbg: #f7f7f7; // fond gris clair
 $dbg: #ededed; //fond gris foncé de la partie localisation
 $card-rad: 15px; //border radius des cartes de restaurant
-$transition: all 500ms;
+$transition: all 500ms; // temps de transition pour le selection des plats
+$g-width: 100%; //width du site
+$anim-time: 1000ms; //durée de l'animation d'arrivée des plats
