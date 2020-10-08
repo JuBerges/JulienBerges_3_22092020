@@ -557,7 +557,15 @@ footer ul a {
   transition: all 500ms;
   -webkit-transform-origin: right;
           transform-origin: right;
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   line-height: 61px;
   vertical-align: middle;
   font-size: 1.2em;

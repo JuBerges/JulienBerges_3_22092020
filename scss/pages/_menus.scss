@@ -103,7 +103,9 @@
       transform: translateX(60px);
       transition: $transition;
       transform-origin: right;
-      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       line-height: 61px;
       vertical-align: middle;
       font-size: 1.2em;
